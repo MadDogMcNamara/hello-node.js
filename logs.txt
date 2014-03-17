@@ -1,0 +1,65 @@
+2014-03-17T06:13:56.633700+00:00 heroku[api]: Release v2 created by rjmcnama@mtu.edu
+2014-03-17T06:13:56.633608+00:00 heroku[api]: Enable Logplex by rjmcnama@mtu.edu
+2014-03-17T06:14:16+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-17T06:14:19+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-03-17T06:14:19.722393+00:00 heroku[api]: Scale to web=1 by rjmcnama@mtu.edu
+2014-03-17T06:14:19.847596+00:00 heroku[api]: Release v3 created by rjmcnama@mtu.edu
+2014-03-17T06:14:19.847508+00:00 heroku[api]: Deploy bfcab28 by rjmcnama@mtu.edu
+2014-03-17T06:14:21.524445+00:00 heroku[web.1]: Starting process with command `node server/server.js`
+2014-03-17T06:14:22.568164+00:00 app[web.1]: Server running at http://127.0.0.1:8124/
+2014-03-17T06:14:22.785571+00:00 heroku[web.1]: Starting process with command `node server/server.js`
+2014-03-17T06:14:23.669791+00:00 app[web.1]: Server running at http://127.0.0.1:8124/
+2014-03-17T06:15:21.631340+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-03-17T06:15:21.631597+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-03-17T06:15:22.862231+00:00 heroku[web.1]: Process exited with status 137
+2014-03-17T06:15:22.981526+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-03-17T06:15:22.981720+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-03-17T06:15:24.205758+00:00 heroku[web.1]: Process exited with status 137
+2014-03-17T06:15:24.222204+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-17T06:15:24.222451+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-17T06:15:25.467031+00:00 heroku[web.1]: Starting process with command `node server/server.js`
+2014-03-17T06:15:26.251940+00:00 app[web.1]: Server running at http://127.0.0.1:8124/
+2014-03-17T06:16:25.857510+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-03-17T06:16:25.857727+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-03-17T06:16:26.931690+00:00 heroku[web.1]: Process exited with status 137
+2014-03-17T06:16:26.947262+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-17T06:16:29.046225+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=ancient-escarpment-6537.herokuapp.com request_id=b65be6e0-72ee-4dcb-9587-3e54087747d2 fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:16:29.625190+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=ancient-escarpment-6537.herokuapp.com request_id=432f5c95-835a-456b-b6c4-1f58606e683c fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:17:31.341584+00:00 heroku[api]: Scale to web=1 by rjmcnama@mtu.edu
+2014-03-17T06:18:04.513634+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=ancient-escarpment-6537.herokuapp.com request_id=27a8ef16-30e3-4c78-b3b6-0702dd24d198 fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:18:04.876842+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=ancient-escarpment-6537.herokuapp.com request_id=80040b3a-61d1-4c33-bc34-69e32dbabc36 fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:21:14.042859+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=ancient-escarpment-6537.herokuapp.com request_id=53aef0b8-2ce9-4f94-bb98-dc01aae9e27e fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:21:14.357073+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=ancient-escarpment-6537.herokuapp.com request_id=f60e04d9-359f-466a-9488-73640baaba88 fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:23:29.422137+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-17T06:23:31.942796+00:00 heroku[web.1]: Starting process with command `node server/server.js`
+2014-03-17T06:23:33.685178+00:00 app[web.1]: Server running at http://127.0.0.1:8124/
+2014-03-17T06:24:04.278287+00:00 heroku[web.1]: Starting process with command `node server/server.js`
+2014-03-17T06:24:05.231921+00:00 app[web.1]: Server running at http://127.0.0.1:8124/
+2014-03-17T06:24:32.111680+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-03-17T06:24:32.111680+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-03-17T06:24:33.426600+00:00 heroku[web.1]: Process exited with status 137
+2014-03-17T06:24:51.789409+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path=/ host=ancient-escarpment-6537.herokuapp.com request_id=fe233b89-5742-4d56-a165-d23cb5ae4577 fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:25:04.369643+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-03-17T06:25:04.369870+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-03-17T06:25:05.616126+00:00 heroku[web.1]: Process exited with status 137
+2014-03-17T06:25:06.673306+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=ancient-escarpment-6537.herokuapp.com request_id=2de38d52-cde1-40de-89d4-bb95f1d0d498 fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:25:06.751312+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=ancient-escarpment-6537.herokuapp.com request_id=6e679496-3fc2-491a-a07d-300d19fa4e58 fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:25:06.919072+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=ancient-escarpment-6537.herokuapp.com request_id=fff9bc42-27ec-4c3b-b8f1-8ccc987c79e9 fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:25:07.206057+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=ancient-escarpment-6537.herokuapp.com request_id=3dfb7692-0bcf-475e-bb15-3e1840a6bb6b fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:25:05.633534+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-17T06:26:50.570621+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-17T06:26:52.100546+00:00 heroku[web.1]: Starting process with command `node server/server.js`
+2014-03-17T06:26:53.163871+00:00 app[web.1]: Server running at http://127.0.0.1:8124/
+2014-03-17T06:27:52.429116+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-03-17T06:27:52.429313+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-03-17T06:27:53.602126+00:00 heroku[web.1]: Process exited with status 137
+2014-03-17T06:27:53.614663+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-17T06:27:53.613296+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-17T06:27:55.229528+00:00 heroku[web.1]: Starting process with command `node server/server.js`
+2014-03-17T06:27:56.114636+00:00 app[web.1]: Server running at http://127.0.0.1:8124/
+2014-03-17T06:28:55.764781+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-03-17T06:28:55.765030+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-03-17T06:28:57.001402+00:00 heroku[web.1]: Process exited with status 137
+2014-03-17T06:28:58.698152+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=ancient-escarpment-6537.herokuapp.com request_id=c22dbcf7-ad80-40e6-8fa8-3c5431239f10 fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:28:59.127949+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=ancient-escarpment-6537.herokuapp.com request_id=68c87165-faf7-470c-bf03-b81dd6b099ad fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
+2014-03-17T06:28:57.014022+00:00 heroku[web.1]: State changed from starting to crashed
