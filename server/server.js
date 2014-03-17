@@ -1,15 +1,10 @@
-// web.js
-var express = require("express");
-var logfmt = require("logfmt");
-var app = express();
 
-app.use(logfmt.requestLogger());
+var http = require('http');
+var port = process.env.PORT || 8124;
 
-app.get('/', function(req, res) {
-  res.send('Hello World!');
-});
+http.createServer(function (request, response) {
+  response.writeHead(200, {'Content-Type': 'text/plain'});
+  response.end('Hello asdasdfWorld\n');
+}).listen();
 
-var port = Number(process.env.PORT || 5000);
-app.listen(port, function() {
-  console.log("Listening on " + port);
-});
+console.log('Server running at http://127.0.0.1:' + port + '/');
