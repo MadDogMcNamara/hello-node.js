@@ -63,3 +63,15 @@
 2014-03-17T06:28:58.698152+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=ancient-escarpment-6537.herokuapp.com request_id=c22dbcf7-ad80-40e6-8fa8-3c5431239f10 fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
 2014-03-17T06:28:59.127949+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=ancient-escarpment-6537.herokuapp.com request_id=68c87165-faf7-470c-bf03-b81dd6b099ad fwd="24.13.173.22" dyno= connect= service= status=503 bytes=
 2014-03-17T06:28:57.014022+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-17T06:33:12+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-17T06:33:16+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-03-17T06:33:16.567186+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-17T06:33:16.376580+00:00 heroku[api]: Deploy d72bf0b by rjmcnama@mtu.edu
+2014-03-17T06:33:16.376580+00:00 heroku[api]: Release v4 created by rjmcnama@mtu.edu
+2014-03-17T06:33:18.680756+00:00 heroku[web.1]: Starting process with command `node server/server.js`
+2014-03-17T06:33:47+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-17T06:33:50+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-03-17T06:33:50.840760+00:00 heroku[api]: Release v5 created by rjmcnama@mtu.edu
+2014-03-17T06:33:50.840628+00:00 heroku[api]: Deploy b577101 by rjmcnama@mtu.edu
+2014-03-17T06:33:52.254275+00:00 heroku[web.1]: Starting process with command `node server/server.js`
+2014-03-17T06:33:53.119312+00:00 app[web.1]: Server running at http://127.0.0.1:8124/

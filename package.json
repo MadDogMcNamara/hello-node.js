@@ -1,15 +1,26 @@
 {
-  "name": "test_js",
+  "name": "node-example",
   "version": "0.0.0",
-  "description": "",
-  "main": "test.js",
+  "description": "This example app is so cool.",
+  "main": "web.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/jane-doe/node-example.git"
   },
-  "author": "Ryan McNamara",
-  "license": "ISC"
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "jane-doe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jane-doe/node-example/issues"
+  },
+  "dependencies": {
+    "logfmt": "^1.0.0-pre",
+    "express": "^3.4.8"
+  }
 }
